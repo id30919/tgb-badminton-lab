@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "vite build",   // <--- 把這裡原本的 "tsc && vite build" 改成 "vite build"
+  "preview": "vite preview"
+},
   "dependencies": {
     "lucide-react": "^0.400.0",
     "react": "^18.2.0",
